@@ -108,26 +108,26 @@ def davis_text_to_bin(fname):
 def scrub(fig,fmap,component,colourmap='bwr',cmin=0.0,cmax=0.5):
     if component == 'du11':
         fig.set_data(fmap.du11)
-        fig.axes.set_title(r'$/partial u_{1} / /partial x_{1}$')
+        fig.axes.set_title(r'$\partial u_{1} / \partial x_{1}$')
     if component == 'du22':
         fig.set_data(fmap.du22)
-        fig.axes.set_title(r'$/partial u_{2} / /partial x_{2}$')
+        fig.axes.set_title(r'$\partial u_{2} / \partial x_{2}$')
     if component == 'du12':
         fig.set_data(fmap.du12)
-        fig.axes.set_title(r'$/partial u_{2} / /partial x_{1}$')
+        fig.axes.set_title(r'$\partial u_{2} / \partial x_{1}$')
     if component == 'du21':
         fig.set_data(fmap.du21)
-        fig.axes.set_title(r'$/partial u_{1} / /partial x_{2}$')
+        fig.axes.set_title(r'$\partial u_{1} / \partial x_{2}$')
     if component=='Max shear':
         fig.set_data(fmap.max_shear)
-        fig.axes.set_title(r'$/gamma_{eff}$')
+        fig.axes.set_title(r'$\gamma_{eff}$')
     fig.set_clim([cmin,cmax])
     fig.set_cmap(colourmap)
     fig.set_clim([cmin,cmax])
     plt.draw()
 
 def scrub_max_shear_log(fig,fmap,cmin=0.0,cmax=0.5):
-    fig.axes.set_title(r'$/gamma_{eff}$')
+    fig.axes.set_title(r'$\gamma_{eff}$')
     fig.set_cmap('viridis')
     fig.set_clim([cmin,cmax])
     fig.set_data(fmap.max_shear)
