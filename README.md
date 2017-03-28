@@ -6,4 +6,4 @@ This repository contains a notebook and small module for data visualization of a
 
 Although it can be previewed using nbviewer, the best way to use is to clone it, run it using [jupyter](http://jupyter.org/), and download the data from Zenodo with the link provided.
 
-If you don't know what a jupyter notebook is (you should, they're great!) the best way to get started is to install [Anaconda](https://www.continuum.io/downloads). The default installation contains much more software than is needed but it works very well. 
+The best way to get started with Jupyter notebook is to install [Anaconda](https://www.continuum.io/downloads). The default installation contains much more software than is needed but it works very well. 
