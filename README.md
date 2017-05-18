@@ -2,7 +2,7 @@
 
 This repository contains a notebook and small module for data visualization of an experiment on AZ31 Mg alloy, which can be used as a companion to our article entitled " Why magnesium is not brittle: a quantitative study on the accommodation of deformation incompatibility".
 
-![Paper graphical abstract](https://dl.dropboxusercontent.com/u/1296308/az31_graphical_abstract.png)
+![Paper graphical abstract](https://www.dropbox.com/s/ipa658hvh0wcepx/az31_graphical_abstract.png?dl=0)
 
 Although it can be previewed using nbviewer, the best way to use is to clone it, run it using [jupyter](http://jupyter.org/), and download the data from Zenodo with the link provided.
 
