@@ -1,6 +1,6 @@
 # Visualisation of HRDIC data from an experiment on AZ31 Mg alloy
 
-This repository contains a notebook and small module for data visualization of an experiment on AZ31 Mg alloy, which can be used as a companion to our article entitled "How magnesium accommodates local deformation incompatibility: a high-resolution digital image correlation study".
+This repository contains a notebook and small module for data visualization of an experiment on AZ31 Mg alloy, which can be used as a companion to our article entitled:[How magnesium accommodates local deformation incompatibility: A high-resolution digital image correlation study](http://www.sciencedirect.com/science/article/pii/S1359645417304275).
 
 ![Paper graphical abstract](https://www.dropbox.com/s/ipa658hvh0wcepx/az31_graphical_abstract.png?dl=1)
 
